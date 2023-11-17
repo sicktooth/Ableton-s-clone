@@ -1,0 +1,129 @@
+/* BLUE COLOR - #0000ff 
+   RED COLOR - #ff764d
+
+
+*/
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: "futura-pt";
+}
+
+img {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  line-height: 1.8;
+} h1 {
+  line-height: 2;
+}
+
+.main__logo {
+  width: 4%;
+}
+
+.home__nav {
+  display: flex;
+  align-content: center;
+  padding: 20px 34px;
+}
+
+.home__nav__lists {
+  display: flex;
+}
+
+.home__nav__lists li a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 2.2rem;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.home__nav__cta {
+  display: flex;
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.home__nav__cta a {
+  text-decoration: none;
+  color: #000;
+}
+
+.home__nav__cta__signup a {
+  margin-right: 25px;
+  color: #0000ff;
+}
+
+.home__nav__cta__signin a {
+  font-size: 16px;
+}
+
+.after__nav {
+  border-top: 1px solid rgba(173, 169, 169, 0.5);
+  height: 0;
+}
+
+.sticky__nav {
+  padding: 30px 50px;
+}
+
+.sticky__nav ul {
+  display: flex;
+}
+
+.sticky__nav a {
+  text-decoration: none;
+  margin-right: 30px;
+  color: #000;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.red-text a {
+  color: #ff764d;
+}
+
+.display-header {
+  padding: 0 130px;
+}
+
+.header__img {
+  background-image: url(https://ableton-production.imgix.net/about/header.jpg?fit=crop&auto=format&fm=jpg);
+  background-position: center;
+  background-size: cover;
+  background-position: no-repeat;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__img h1 {
+  color: #ff764d;
+  font-size: 8.5rem;
+}
+
+.header__description {
+  padding: 60px 150px;
+}
+
+
+/*  Coming to this
+
+.Production__imgs {
+  display: flex;
+} */
