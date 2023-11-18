@@ -1,5 +1,6 @@
 /* BLUE COLOR - #0000ff 
    RED COLOR - #ff764d
+   YELLOW COLOR - #fbffa7
 
 
 */
@@ -13,6 +14,7 @@
 
 body {
     font-family: "futura-pt";
+    font-size: 18px;
 }
 
 img {
@@ -23,13 +25,40 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 p {
   line-height: 1.8;
 } h1 {
-  line-height: 2;
+  line-height: 1.7;
 }
 
-.main__logo {
+            /* SECTIONS  */
+
+
+.container {
+  padding: 0 130px;
+}
+
+.description {
+  padding: 100px 280px;
+}
+
+.description h1 {
+  margin-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+
+            /* NAVIGATION */
+
+
+.home__logo {
   width: 4%;
 }
 
@@ -97,11 +126,11 @@ p {
   color: #ff764d;
 }
 
-.display-header {
-  padding: 0 130px;
-}
 
-.header__img {
+                  /* HEADER */
+
+
+.main-header__header__img {
   background-image: url(https://ableton-production.imgix.net/about/header.jpg?fit=crop&auto=format&fm=jpg);
   background-position: center;
   background-size: cover;
@@ -112,15 +141,38 @@ p {
   justify-content: center;
 }
 
-.header__img h1 {
+.main-header__header__img h1 {
   color: #ff764d;
   font-size: 8.5rem;
 }
 
-.header__description {
-  padding: 60px 150px;
+
+            /* MUSIC SECTION  */
+
+.music-section__img {
+  position: relative;
 }
 
+.music-section__img-1,
+.music-section__img-2 {
+  z-index: 1;
+  position: relative;
+}
+
+.music-section__img-1 {
+  left: 130px;
+}
+
+.music-section__img-2 {
+  left: 54%;
+}
+
+.yellow__bg-color {
+  background-color: #fbffa7;
+  width: 100%;
+  height: 100svh;
+  z-index: -10;
+}
 
 /*  Coming to this
 
