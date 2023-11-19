@@ -1,6 +1,7 @@
 /* BLUE COLOR - #0000ff 
    RED COLOR - #ff764d
    YELLOW COLOR - #fbffa7
+   LIGHT GREEN COLOR - #b6ffc0
 
 
 */
@@ -46,7 +47,12 @@ p {
   padding: 100px 280px;
 }
 
-.description h1 {
+.description-container {
+  padding: 100px 410px;
+}
+
+.description h1,
+.description-container h1 {
   margin-bottom: 20px;
 }
 
@@ -148,10 +154,10 @@ p {
 
 
             /* MUSIC SECTION  */
-
+/* 
 .music-section__img {
   position: relative;
-}
+} */
 
 .music-section__img-1,
 .music-section__img-2 {
@@ -160,18 +166,81 @@ p {
 }
 
 .music-section__img-1 {
-  left: 130px;
+  left: 135px;
+  top: 140px;
+}
+
+.music-section__img-1 img {
+  width: 215%;
 }
 
 .music-section__img-2 {
-  left: 54%;
+  left: 38.5%;
+  top: 270px;
+}
+
+.music-section__img-2 img {
+  width: 212%;
 }
 
 .yellow__bg-color {
   background-color: #fbffa7;
-  width: 100%;
-  height: 100svh;
-  z-index: -10;
+  width: 70%;
+  height: 950px;
+  /* z-index: -10; */
+}
+
+
+                 /* WHY ABLETON SECTION  */
+                
+figure {
+  text-align: center;
+}
+
+figure video {
+  width: 763px;
+}
+
+
+                  /* PRODUCTION SECTION */
+
+/* .Production__imgs {
+  justify-content: center;
+} */
+
+.Production__img1,
+.Production__img2 {
+  position: relative;
+  z-index: 1;
+}
+
+.Production__img1 {
+  top: 140px;
+  left: -49.5%;
+}
+
+.Production__img1 img {
+  width: 200%;
+}
+
+.Production__img1 img:nth-of-type(1) {
+  margin-bottom: 140px;
+}
+
+.Production__img2 {
+  top: 300px;
+  right: 400px;
+}
+
+.Production__img2 img {
+  width: 200%;
+}
+
+.light-green__bg-color {
+  background-color: #b6ffc0;
+  height: 1250px;
+  width: 59%;
+  position: relative;
 }
 
 /*  Coming to this
