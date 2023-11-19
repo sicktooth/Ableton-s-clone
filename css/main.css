@@ -2,7 +2,7 @@
    RED COLOR - #ff764d
    YELLOW COLOR - #fbffa7
    LIGHT GREEN COLOR - #b6ffc0
-
+  LIGHT PURPLE COLOR - #d5b3ff
 
 */
 
@@ -44,11 +44,11 @@ p {
 }
 
 .description {
-  padding: 100px 280px;
+  padding: 130px 280px;
 }
 
 .description-container {
-  padding: 100px 410px;
+  padding: 130px 410px;
 }
 
 .description h1,
@@ -201,6 +201,15 @@ figure video {
   width: 763px;
 }
 
+figcaption {
+  text-align: left;
+  font-weight: 400;
+  color: #000;
+  padding-left: 300px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
 
                   /* PRODUCTION SECTION */
 
@@ -242,6 +251,52 @@ figure video {
   width: 59%;
   position: relative;
 }
+
+            /* WHAT WE DO SECTION  */
+
+#what-we-do img {
+  width: 100%;
+}
+
+        /* WHAT WE OFFER */
+
+.what-we-offer__container {
+  padding: 0 250px;
+}
+
+.what-we-offer__img1,
+.what-we-offer__img2 {
+  position: relative;
+  z-index: 1;
+}
+
+.what-we-offer__img1 {
+  top: 310px;
+  right: 120px;
+}
+
+.what-we-offer__img1 img {
+  width: 200%;
+}
+
+.what-we-offer__img2 {
+  top: 160px;
+  left: 375px;
+}
+
+.what-we-offer__img2 img {
+  width: 200%;
+}
+
+.light-purple__bg-color {
+  background-color: #d5b3ff;
+  height: 1000px;
+}
+
+
+/* CTA SECTION */
+
+
 
 /*  Coming to this
 
