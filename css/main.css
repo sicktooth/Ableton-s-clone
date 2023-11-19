@@ -281,7 +281,7 @@ figcaption {
 
 .what-we-offer__img2 {
   top: 160px;
-  left: 375px;
+  left: 395px;
 }
 
 .what-we-offer__img2 img {
@@ -296,7 +296,14 @@ figcaption {
 
 /* CTA SECTION */
 
+#CTA {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 
+/* .CTA__description {
+  
+} */
 
 /*  Coming to this
 
