@@ -120,7 +120,7 @@ h3 {
 }
 
 .after__nav {
-  border-top: 1px solid rgba(173, 169, 169, 0.5);
+  border-top: 1px solid rgba(173, 169, 169, 0.3);
   height: 0;
 }
 
@@ -351,7 +351,7 @@ figcaption {
 
 
 .footer__separator {
-  border-top: 1px solid rgba(173, 169, 169, 0.5);
+  border-top: 1px solid rgba(173, 169, 169, 0.3);
   height: 0;
 }
 
@@ -397,9 +397,34 @@ footer li {
   margin-bottom: 80px;
 }
 
-/* .social__icons li:nth-of-type(1) {
-  background-color: #0000ff;
-} */
+.social__icons li{
+  /* display: flex; */
+  margin-right: 5%;
+  width: 40px;
+  height: 40px;
+}
+
+.social__icons li:nth-of-type(1) {
+  background-color: #4267B2;
+}
+
+.social__icons li:nth-of-type(2) {
+  background-color: #1DA1F2;
+}
+
+.social__icons li:nth-of-type(3) {
+  background-color: #FF0000;
+}
+
+.social__icons li:nth-of-type(4) {
+  background-color: #FCAF45;
+}
+
+.social__icons i {
+  font-size: 30px;
+  color: #fff;
+  /* text-align: center; */
+}
 
 .newsletter__form {
   margin-top: 4%;
@@ -411,8 +436,8 @@ input[type=email] {
   font-family: inherit;
   font-size: 20px;
   padding: 1.1%;
-  border:  rgba(173, 169, 169, 0.5);
-  background-color: rgba(173, 169, 169, 0.5);
+  border:  rgba(173, 169, 169, 0.3);
+  background-color: rgba(173, 169, 169, 0.3);
 }
 
 input[type=button] {
@@ -428,8 +453,8 @@ input[type=button] {
 select {
   font-size: 15px;
   font-family: inherit;
-  border:  rgba(173, 169, 169, 0.5);
-  background-color: rgba(173, 169, 169, 0.5);
+  border:  rgba(173, 169, 169, 0.3);
+  background-color: rgba(173, 169, 169, 0.3);
 }
 
 .footer__nav {
