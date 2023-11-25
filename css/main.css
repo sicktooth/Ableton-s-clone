@@ -188,7 +188,8 @@ h3 {
   top: 140px;
 }
 
-.music-section__img-1 img {
+.music-section__img-1 img,
+.music-section__img-2 img  {
   width: 215%;
 }
 
@@ -197,15 +198,10 @@ h3 {
   top: 270px;
 }
 
-.music-section__img-2 img {
-  width: 212%;
-}
-
 .yellow__bg-color {
   background-color: #fbffa7;
   width: 70%;
   height: 950px;
-  /* z-index: -10; */
 }
 
 
@@ -458,7 +454,7 @@ select {
 }
 
 .footer__nav__main li {
-  margin-right: 2%;
+  margin:0 2% 0 0;
 }
 
 

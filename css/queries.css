@@ -4,10 +4,19 @@
         overflow-x: hidden;
     }
 
+    .description {
+      padding: 130px 230px;
+    }
+    
+    .description-container {
+      padding: 130px 360px;
+    }
+
     .Production__img1 img,
     .Production__img2 img  {
         width: 190%;
     }
+
     .what-we-offer__img2 {
         left: 0;
         margin-left: auto;
@@ -15,19 +24,82 @@
     .what-we-offer__img2 img,
     .what-we-offer__img1 img {
         width: 190%;
-      }
+    }
 }
 
 @media (max-width: 1400px) {
+
+    .description {
+        padding: 130px 180px;
+    }
+      
+    .description-container {
+        padding: 130px 310px;
+    }
+
+    .yellow__bg-color {
+        width: 80%;
+        height: 750px;
+      }
+    .music-section__img-1 img,
+    .music-section__img-2 img  {
+        width: 190%;
+    }
+
+    .Production__img1 {
+        left: -45.6%;
+    }
     .Production__img2 {
-        right: 360px;
+        right: 287px;
     }
     .Production__img1 img,
     .Production__img2 img  {
          width: 170%;
     }   
     .light-green__bg-color {
-        height: 1150px;
+        height: 1050px;
         width: 61%;
-      }
+    }
+
+    .what-we-offer__img2 img,
+    .what-we-offer__img1 img {
+        width: 170%;
+    }
+    .what-we-offer__container {
+        padding: 0 200px;
+    }
+    .light-purple__bg-color {
+        height: 900px;
+    }
+
+    .CTA__description {
+        font-size: 78%;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .description {
+        padding: 130px 130px;
+    }
+      
+    .description-container {
+        padding: 130px 260px;
+    }
+
+    .main-header__header__img h1 {
+        font-size: 6.5rem;
+    }
+
+    .footer__nav {
+        font-size: 14px;
+    }
+
+    .what-we-offer__container {
+        padding: 0 180px;
+    }
+
+    .CTA__description__text {
+        padding:0 109px;
+    }
 }
