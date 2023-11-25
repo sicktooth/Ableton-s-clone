@@ -2,7 +2,7 @@
    RED COLOR - #ff764d
    YELLOW COLOR - #fbffa7
    LIGHT GREEN COLOR - #b6ffc0
-  LIGHT PURPLE COLOR - #d5b3ff
+   LIGHT PURPLE COLOR - #d5b3ff
 
 */
 
@@ -16,6 +16,7 @@
 body {
     font-family: "futura-pt";
     font-size: 18px;
+    overflow-x: hidden;
 }
 
 main {
@@ -98,6 +99,14 @@ h3 {
   font-weight: 500;
 }
 
+.home__nav__lists li:last-of-type a {
+  color: #ff764d;
+}
+
+.home__nav__lists li:last-of-type a::after {
+  content: ' \002B';
+}
+
 .home__nav__cta {
   display: flex;
   margin-left: auto;
@@ -116,7 +125,7 @@ h3 {
 }
 
 .home__nav__cta__signin a {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .after__nav {
@@ -137,7 +146,7 @@ h3 {
   margin-right: 30px;
   color: #000;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .red-text a {
@@ -166,10 +175,7 @@ h3 {
 
 
             /* MUSIC SECTION  */
-/* 
-.music-section__img {
-  position: relative;
-} */
+
 
 .music-section__img-1,
 .music-section__img-2 {
@@ -225,9 +231,6 @@ figcaption {
 
                   /* PRODUCTION SECTION */
 
-/* .Production__imgs {
-  justify-content: center;
-} */
 
 .Production__img1,
 .Production__img2 {
@@ -240,7 +243,8 @@ figcaption {
   left: -49.5%;
 }
 
-.Production__img1 img {
+.Production__img1 img,
+.Production__img2 img  {
   width: 200%;
 }
 
@@ -249,18 +253,14 @@ figcaption {
 }
 
 .Production__img2 {
-  top: 300px;
+  top: 290px;
   right: 400px;
-}
-
-.Production__img2 img {
-  width: 200%;
 }
 
 .light-green__bg-color {
   background-color: #b6ffc0;
   height: 1250px;
-  width: 59%;
+  width: 61%;
   position: relative;
 }
 
@@ -287,17 +287,14 @@ figcaption {
   right: 120px;
 }
 
-.what-we-offer__img1 img {
+.what-we-offer__img1 img,
+.what-we-offer__img2 img {
   width: 200%;
 }
 
 .what-we-offer__img2 {
   top: 160px;
   left: 395px;
-}
-
-.what-we-offer__img2 img {
-  width: 200%;
 }
 
 .light-purple__bg-color {
@@ -316,7 +313,6 @@ figcaption {
 .CTA__img {
   height: 650px;
   background-image: url(https://ableton-production.imgix.net/about/photo-8.jpg?crop=right&fit=crop&h=402&ixjsv=1.1.3&w=670);
-  /* width: 100%; */
   background-position: center;
   background-size:cover;
   background-position: no-repeat;
@@ -378,13 +374,9 @@ footer li {
   margin-bottom: 80px;
 }
 
-  /* ARROWED TEXT  */
-
 .arrowed__text::after {
   content: '\00a0›';
 }
-
-  /* ARROWED TEXT  */
 
 
 .row {
@@ -397,11 +389,12 @@ footer li {
   margin-bottom: 80px;
 }
 
+.social__icons {
+  margin-top: 4%;
+}
+
 .social__icons li{
-  /* display: flex; */
   margin-right: 5%;
-  width: 40px;
-  height: 40px;
 }
 
 .social__icons li:nth-of-type(1) {
@@ -423,7 +416,7 @@ footer li {
 .social__icons i {
   font-size: 30px;
   color: #fff;
-  /* text-align: center; */
+  padding: 5px;
 }
 
 .newsletter__form {

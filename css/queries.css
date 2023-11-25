@@ -1,0 +1,33 @@
+@media (max-width: 1550px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .Production__img1 img,
+    .Production__img2 img  {
+        width: 190%;
+    }
+    .what-we-offer__img2 {
+        left: 0;
+        margin-left: auto;
+    }
+    .what-we-offer__img2 img,
+    .what-we-offer__img1 img {
+        width: 190%;
+      }
+}
+
+@media (max-width: 1400px) {
+    .Production__img2 {
+        right: 360px;
+    }
+    .Production__img1 img,
+    .Production__img2 img  {
+         width: 170%;
+    }   
+    .light-green__bg-color {
+        height: 1150px;
+        width: 61%;
+      }
+}
