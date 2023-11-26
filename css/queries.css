@@ -1,4 +1,4 @@
-@media (max-width: 1550px) {
+@media only screen and (max-width: 1550px) {
 
     body {
         overflow-x: hidden;
@@ -25,9 +25,16 @@
     .what-we-offer__img1 img {
         width: 190%;
     }
+
+    footer {
+        font-size: 17px;
+    }
+    .footer__header img {
+        width: 17%;
+    }
 }
 
-@media (max-width: 1400px) {
+@media only screen and (max-width: 1400px) {
 
     .description {
         padding: 130px 180px;
@@ -75,9 +82,13 @@
     .CTA__description {
         font-size: 78%;
     }
+
+    .row {
+        gap: 100px;
+    }
 }
 
-@media (max-width: 1300px) {
+@media only screen and (max-width: 1300px) {
 
     .description {
         padding: 130px 130px;
@@ -101,5 +112,79 @@
 
     .CTA__description__text {
         padding:0 109px;
+    }
+
+    .row {
+        gap: 80px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .what-we-offer__container {
+        padding: 0 135px;
+    }
+    .what-we-offer__img1 {
+        right: 90px;
+    }
+    .what-we-offer__img2 img,
+    .what-we-offer__img1 img {
+        width: 145%;
+    }
+    .light-purple__bg-color {
+        height: 790px;
+    }
+
+    .CTA__description__text {
+        padding:0 78px;
+    }
+
+    footer li {
+        margin-bottom: 3.5%;
+    }
+    .row {
+        gap: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .container {
+        padding: 0 90px;
+    }
+
+    .what-we-offer__container {
+        padding: 0 90px;
+    }
+    .what-we-offer__img1 {
+        right: 60px;
+    }
+    .what-we-offer__img2 img,
+    .what-we-offer__img1 img {
+        width: 130%;
+    }
+    .light-purple__bg-color {
+        height: 750px;
+    }
+
+    .CTA__description__text {
+        padding:0 50px;
+    }
+
+    footer {
+        padding-left: 100px;
+    }
+    .row1 {
+        grid-template-columns: 2fr 3fr;
+    }
+    .news {
+        grid-column: 1 / 3;
+    }
+    .footer__nav__aside p {
+        margin-right: 0;
+    }
+    .footer__nav__aside img {
+        margin-left: 15px;
     }
 }

@@ -266,7 +266,7 @@ figcaption {
   width: 100%;
 }
 
-        /* WHAT WE OFFER */
+              /* WHAT WE OFFER */
 
 .what-we-offer__container {
   padding: 0 250px;
@@ -299,7 +299,7 @@ figcaption {
 }
 
 
-/* CTA SECTION */
+                /* CTA SECTION */
 
 #CTA {
   display: grid;
@@ -377,7 +377,7 @@ footer li {
 
 .row {
   display: grid;
-  grid-template-columns: 1.5fr 2fr 3.5fr;
+  grid-template-columns: 2fr 3fr 3.5fr;
   gap: 119px;
 }
 
@@ -448,13 +448,13 @@ select {
 
 .footer__nav {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
+  grid-template-columns: 3fr 1fr; 
   font-size: 15px;
   font-weight: 500;
 }
 
 .footer__nav__main li {
-  margin:0 2% 0 0;
+  margin:0 3% 0 0;
 }
 
 
