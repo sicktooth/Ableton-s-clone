@@ -171,6 +171,7 @@ h3 {
 .main-header__header__img h1 {
   color: #ff764d;
   font-size: 8.5rem;
+  cursor:default;
 }
 
 
