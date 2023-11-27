@@ -18,8 +18,8 @@
     }
 
     .what-we-offer__img2 {
-        left: 0;
-        margin-left: auto;
+        left: 262px;
+        /* margin-left: auto; */
     }
     .what-we-offer__img2 img,
     .what-we-offer__img1 img {
@@ -141,6 +141,9 @@
     }
     .what-we-offer__img1 {
         right: 90px;
+    }
+    .what-we-offer__img2 {
+        left: 287px;
     }
     .what-we-offer__img2 img,
     .what-we-offer__img1 img {
