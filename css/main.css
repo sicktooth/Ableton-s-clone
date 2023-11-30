@@ -119,8 +119,12 @@ h3 {
   color: #000;
 }
 
-.home__nav__cta__signup a {
+.home__nav__cta__signup {  
   margin-right: 25px;
+  color: #0000ff;
+}
+.home__nav__cta__signup a:visited,
+  .home__nav__cta__signup a:active {
   color: #0000ff;
 }
 
@@ -172,6 +176,14 @@ h3 {
   color: #ff764d;
   font-size: 8.5rem;
   cursor:default;
+}
+
+.main-header h1 a {
+  color: #0000ff;
+}
+.main-header h1 a:active,
+.main-header h1 a:visited {
+  color: #0000ff;
 }
 
 
@@ -349,8 +361,7 @@ figcaption {
 }
 
 footer {
-  padding: 130px 100px 130px 130px;
-  font-size: 20px;
+  padding: 130px 100px 90px 130px;
 }
 
 footer p {
@@ -424,7 +435,7 @@ footer li {
 input[type=email] {
   width: 70%;
   font-family: inherit;
-  font-size: 20px;
+  font-size: 1rem;
   padding: 1.1%;
   border:  rgba(173, 169, 169, 0.3);
   background-color: rgba(173, 169, 169, 0.3);
@@ -436,7 +447,7 @@ input[type=button] {
   background-color: #0000ff;
   border:0 #0000ff;
   font-family: inherit;
-  font-size: 20px;
+  font-size: 1rem;
   padding: 1.1%;
 }
 

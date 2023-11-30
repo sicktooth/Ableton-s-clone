@@ -1,7 +1,27 @@
+@media only screen and (max-width: 1280px) {
+    
+}
+
+
 @media only screen and (max-width: 1024px) {
 
+    h1 {
+        line-height: 1.45;
+        font-size: 19px;
+    }
+
     .container {
-        padding: 0 90px;
+        padding: 0 70px;
+    }
+    .description {
+        padding: 90px 100px;
+    }
+    .description-container {
+        padding: 90px 160px;
+    }
+
+    .home__nav__lists li a {
+        margin-left: 1.6rem;
     }
 
     .yellow__bg-color {
@@ -14,6 +34,10 @@
     .music-section__img-2 {
         top: 228px;
         left: 35.5%;
+    }
+    .music-section__img-1 img,
+    .music-section__img-2 img  {
+        width: 190%;
     }
 
     .Production__img1 {
@@ -49,19 +73,25 @@
         height: 750px;
     }
 
+    #CTA {
+        grid-template-columns: 1fr;
+    }
     .CTA__description__text {
-        padding:0 50px;
+        padding:100px 80px;
     }
 
     footer {
-        padding-left: 100px;
+        padding-left: 90px;
     }
-    /* .row1 {
-        grid-template-columns: 2fr 3fr;
+    .row {
+        gap: 40px;
     }
-    .news {
-        grid-column: 1 / 3;
-    } */
+    select[name=Location] {
+        width: 70%;
+      }
+      select[name=Languages] {
+        width: 30%;
+      }
     .footer__nav__aside p {
         margin-right: 0;
     }
