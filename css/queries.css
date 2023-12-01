@@ -1,5 +1,12 @@
 @media only screen and (max-width: 1280px) {
-    
+    .container {
+        padding: 0 90px;
+    }
+
+    .music-section__img-1 img,
+    .music-section__img-2 img  {
+        width: 195%;
+    }
 }
 
 
