@@ -3,9 +3,38 @@
         padding: 0 90px;
     }
 
+    .music-section__img-1 {
+        left: 100px;
+    }
+    .music-section__img-2 {
+        left: 36%;
+    }
     .music-section__img-1 img,
     .music-section__img-2 img  {
-        width: 195%;
+        width: 190%;
+    }
+    .yellow__bg-color {
+        height: 790px;
+    }
+
+    .Production__img1 {
+        top: 120px;
+        left: -52%;
+    }
+    .Production__img1 img:nth-of-type(1) {
+        margin-bottom: 100px;
+    }
+    .Production__img2 {
+        top: 230px;
+        right: 340px;
+    }
+    .Production__img1 img,
+    .Production__img2 img  {
+        width: 190%;
+    }
+    .light-green__bg-color {
+        height: 990px;
+        width: 71%;
     }
 }
 

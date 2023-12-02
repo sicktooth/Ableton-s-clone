@@ -224,8 +224,9 @@ figure {
   text-align: center;
 }
 
-figure video {
+iframe {
   width: 763px;
+  height: 450px;
 }
 
 figcaption {
