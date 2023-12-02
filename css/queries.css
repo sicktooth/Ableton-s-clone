@@ -36,6 +36,26 @@
         height: 990px;
         width: 71%;
     }
+
+    .what-we-offer__container {
+        padding: 0 150px;
+    }
+    .what-we-offer__img1 {
+        top: 290px;
+        right: 82px;
+    }
+    .what-we-offer__img2 {
+        top: 140px;
+        left: 276px;
+    }
+    .what-we-offer__img1 img,
+    .what-we-offer__img2 img {
+        width: 170%;
+    }
+    .light-purple__bg-color {
+        background-color: #d5b3ff;
+        height: 850px;
+    }
 }
 
 
@@ -87,7 +107,7 @@
         width: 180%;
     } 
     .light-green__bg-color {
-        height: 850px;
+        height: 790px;
         width: 100%;
     }
 
