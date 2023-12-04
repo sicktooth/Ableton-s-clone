@@ -139,6 +139,9 @@
     footer {
         padding-left: 90px;
     }
+    .footer__header img {
+        width: 20%;
+    }
     .row {
         gap: 40px;
     }
@@ -153,5 +156,31 @@
     }
     .footer__nav__aside img {
         margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 0 50px;
+    }
+
+    .CTA__description__text {
+        padding:80px 70px;
+    }
+
+    footer {
+        padding-left: 50px;
+    }
+    .row {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    .footer__nav {
+        grid-template-columns: 1fr;
+    }
+    .footer__nav__aside {
+        margin-left: 0;
+        grid-template-columns: 1fr 1fr;
     }
 }
