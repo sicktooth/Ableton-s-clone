@@ -280,6 +280,10 @@ figcaption {
   width: 100%;
 }
 
+#what-we-do p:nth-of-type(1) {
+  margin-bottom: 20px;
+}
+
               /* WHAT WE OFFER */
 
 .what-we-offer__container {
@@ -350,8 +354,12 @@ figcaption {
 .CTA__description a {
   font-size: 155.5%;
   font-weight: 500;
+  color: #0000ff;
 }
 
+.CTA-link:active{
+  color: #0000ff;
+}
 
                   /* FOOTER  */
 
