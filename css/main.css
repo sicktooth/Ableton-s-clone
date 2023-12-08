@@ -458,6 +458,7 @@ input[type=button] {
   font-family: inherit;
   font-size: 1rem;
   padding: 1.1%;
+  cursor: pointer;
 }
 
 select {

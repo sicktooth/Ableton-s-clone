@@ -23,8 +23,18 @@
         padding: 100px 320px;
     }
 
+    .home__logo {
+        width: 5%;
+    }
+    .home__nav__lists {
+        margin-left: 18px;
+    }
     .home__nav__lists li a {
-        margin-left: 1.5rem;
+        margin-left: 1.8rem;
+        /* font-size: 22px; */
+    }
+    .sticky__nav a {
+        font-size: 16px;
     }
 
     .music-section__img-1 {
@@ -79,6 +89,34 @@
     .light-purple__bg-color {
         background-color: #d5b3ff;
         height: 850px;
+    }
+
+    footer {
+        padding: 130px 60px 90px 103px;
+    }
+    .footer__body {
+        font-size: 20px;
+    }
+    .row {
+        gap: 90px;
+    }
+    .footer__body>.row {
+        margin-bottom: 62px;
+    }
+    .foot {
+        margin-left: -90px;
+    }
+    .footer__header img {
+        width: 18%;
+        /* margin-bottom: 80px; */
+    }
+    input[type=email] {
+        font-size: 20px;
+        width: 70%;
+    }
+    input[type=button] {
+        width: 25%;
+        font-size: 20px;
     }
 }
 
