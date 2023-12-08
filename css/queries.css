@@ -1,4 +1,5 @@
 @media only screen and (max-width: 1280px) {
+
     .description p,
     .description-container p{
         font-size: 20px;
@@ -12,7 +13,6 @@
     .description-container h1 {
         font-size: 1.64rem;
     }
-
     .container {
         padding: 0 95px;
     }
@@ -21,6 +21,10 @@
     }
     .description-container {
         padding: 100px 320px;
+    }
+
+    .home__nav__lists li a {
+        margin-left: 1.5rem;
     }
 
     .music-section__img-1 {
@@ -81,14 +85,47 @@
 
 @media only screen and (max-width: 1024px) {
 
+    main {
+        padding-bottom: 91px;
+    }
+
     h1 {
         line-height: 1.45;
         font-size: 19px;
     }
+    h3 {
+        font-size: 16px;
+    }
+
+    .home__logo {
+        width: 6%;
+    }
+    .home__nav {
+        padding: 20px 15px;
+    }
+    .home__nav__lists {
+        padding-top: 4px;
+    }
+    .home__nav__lists li a {
+        margin-left: 1.3rem;
+        font-size: 16px;
+    }
+    .home__nav__cta {
+        font-size: 15px;
+        padding-top: 4px;
+    }
+    .sticky__nav {
+        padding: 18px 20px;
+    }
+    .sticky__nav a {
+        margin-right: 20px;
+        font-size: 15px;
+    }
+
     .description h1,
     .description-container h1 {
         font-size: 19px;
-        line-height: 1.6;
+        line-height: 1.5;
     }
     .description p,
     .description-container p{
@@ -100,14 +137,10 @@
         padding: 0 70px;
     }
     .description {
-        padding: 90px 100px;
+        padding: 90px 84px;
     }
     .description-container {
         padding: 90px 160px;
-    }
-
-    .home__nav__lists li a {
-        margin-left: 1.6rem;
     }
 
     .yellow__bg-color {
@@ -127,9 +160,11 @@
     }
 
     .Production__img1 {
+        top: 96px;
         left: -50%;
     }
     .Production__img2 {
+        top: 196px;
         right: 250px;
     }
     .Production__img1 img,
@@ -138,25 +173,26 @@
     } 
     .light-green__bg-color {
         height: 790px;
-        width: 100%;
+        width: 85%;
     }
 
     .what-we-offer__container {
-        padding: 0 150px;
+        padding: 0 158px;
     }
     .what-we-offer__img1 {
-        right: 60px;
-        top: 260px;
+        right: 85px;
+        top: 178px;
     }
     .what-we-offer__img2 {
-        left: 230px;
+        top: 94px;
+        left: 146px;
     }
     .what-we-offer__img2 img,
     .what-we-offer__img1 img {
         width: 130%;
     }
     .light-purple__bg-color {
-        height: 750px;
+        height: 620px;
     }
 
     #CTA {
@@ -167,20 +203,33 @@
     }
 
     footer {
-        padding-left: 90px;
+        padding: 98px 66px 90px 77px;
     }
     .footer__header img {
-        width: 20%;
+        width: 25%;
+        margin-bottom: 63px;
     }
     .row {
         gap: 40px;
     }
+    .footer__body>.row {
+        margin-bottom: 48px;
+    }
+    input[type=button] {
+        width: 28%;
+    }
     select[name=Location] {
         width: 70%;
-      }
-      select[name=Languages] {
+    }
+    select[name=Languages] {
         width: 30%;
-      }
+    }
+    .footer__nav {
+        font-size: 14px;
+    }
+    .footer__nav__main li {
+        margin:0 2.5% 0 0;
+    }
     .footer__nav__aside p {
         margin-right: 0;
     }
