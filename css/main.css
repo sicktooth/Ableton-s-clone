@@ -373,6 +373,10 @@ footer {
   padding: 130px 100px 90px 130px;
 }
 
+.footer__body {
+  font-size: 20px;
+}
+
 footer p {
   line-height: 1.3;
 }
@@ -399,7 +403,7 @@ footer li {
 .row {
   display: grid;
   grid-template-columns: 2fr 3fr 3.5fr;
-  gap: 119px;
+  gap: 100px;
 }
 
 .footer__body>.row {
@@ -444,7 +448,7 @@ footer li {
 input[type=email] {
   width: 70%;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 1.1%;
   border:  rgba(173, 169, 169, 0.3);
   background-color: rgba(173, 169, 169, 0.3);
@@ -456,16 +460,24 @@ input[type=button] {
   background-color: #0000ff;
   border:0 #0000ff;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 1.1%;
   cursor: pointer;
 }
 
 select {
   font-size: 15px;
+  font-weight: 500;
   font-family: inherit;
   border:  rgba(173, 169, 169, 0.3);
   background-color: rgba(173, 169, 169, 0.3);
+  padding: 4px 2px;
+}
+select[name=Location] {
+  width: 60%;
+}
+select[name=Languages] {
+  width: 30%;
 }
 
 .footer__nav {
@@ -476,7 +488,7 @@ select {
 }
 
 .footer__nav__main li {
-  margin:0 3% 0 0;
+  margin:0 1.5% 0 0;
 }
 
 
