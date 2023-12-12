@@ -500,16 +500,64 @@
     }
 
     .description {
-        padding: 80px 53px;
+        padding: 80px 70px;
     }
     .description-container {
-        padding: 80px 120px;
+        padding: 80px 144px;
+    }
+    .description p,
+    .description-container p{
+        font-size: 16px;
     }
 
-
+    .music-section__img-1 img, .music-section__img-2 img {
+        width: 177%;
+    }
+    .music-section__img-1 {
+        top: 73px;
+        left: 89px;
+    }
+    .music-section__img-2 {
+        top: 159px;
+    }
+    .yellow__bg-color {
+        height: 535px;
+        width: 91%;
+    }
 
     iframe {
-        width: 74.512vw;
+        width: 604.512px;
+        height: 350px;
+    }
+
+    .Production__img1 {
+        top: 76px;
+    }
+    .Production__img2 {
+        top: 167px;
+        right: 238px;
+    }
+    .light-green__bg-color {
+        height: 697px;
+        width: 95%;
+    }
+
+    .what-we-offer__container {
+        padding: 0 154px;
+    }
+    .what-we-offer__img2 img, .what-we-offer__img1 img {
+        width: 120%;
+    }
+    .what-we-offer__img1 {
+        right: 74px;
+        top: 152px;
+    }
+    .what-we-offer__img2 {
+        top: 74px;
+        left: 91px;
+    }
+    .light-purple__bg-color {
+        height: 528px;
     }
 
     .CTA__img {
@@ -617,6 +665,7 @@
     }
     .music-section__img-1 {
         top: 62px;
+        left: 70px;
     }
     .music-section__img-2 {
         top: 141px;
@@ -693,10 +742,6 @@
     .footer__body>.row {
         margin-bottom: 28px;
     }
-    .foot {
-        margin-left: 0;
-        grid-row: 1 / 2;
-    }
     .social__icons {
         margin-top: 2%;
     }
@@ -731,5 +776,15 @@
     }
     .footer__nav__aside p {
         margin-left: -59px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .container {
+        padding: 0 37px;
+    }
+
+    .main-header__header__img h1 {
+        font-size: 5rem;
     }
 }
