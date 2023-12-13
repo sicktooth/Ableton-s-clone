@@ -64,7 +64,6 @@
         gap: 21px;
     }
 }
-
 @media only screen and (max-width: 1280px) {
 
     .description p,
@@ -201,7 +200,6 @@
         margin-left: -34px;
     }
 }
-
 @media only screen and (max-width: 1149px) {
 
     .container {
@@ -327,7 +325,6 @@
         width: 70%;
     }
 }
-
 @media only screen and (max-width: 1024px) {
 
     main {
@@ -492,7 +489,12 @@
         margin-left: 8px;
     }
 }
-
+@media only screen and (max-width: 1023px) {
+    .home__nav__lists,
+    .home__nav__cta {
+        display: none;
+    }
+}
 @media only screen and (max-width: 896px) {
 
     main {
@@ -632,7 +634,6 @@
         margin-left: -83px;
     }
 }
-
 @media only screen and (max-width: 768px) {
 
     main {
@@ -778,13 +779,188 @@
         margin-left: -59px;
     }
 }
-
 @media only screen and (max-width: 425px) {
     .container {
-        padding: 0 37px;
+        padding: 0 36px;
+    }
+    .description {
+        padding: 36px 0;
+    }
+    .description-container {
+        padding: 36px 39px;
     }
 
+    main {
+        padding-bottom: 40px;
+    }
+
+    .home__nav {
+        padding: 20px;
+    }
+    .home__logo {
+        width: 15.5%;
+    }
     .main-header__header__img h1 {
-        font-size: 5rem;
+        font-size: 4rem;
+    }
+    .sticky__nav a {
+        font-size: 14px;
+    }
+
+    .music-section__img-1 {
+        top: 35px;
+        left: 36px;
+    }
+    .music-section__img-2 {
+        top: 74px;
+    }
+    .yellow__bg-color {
+        height: 251px;
+        width: 200%;
+    }
+
+    iframe {
+        width: 350px;
+        height: 200px;
+    }
+    figcaption {
+        padding-left: 18px;
+    }
+
+    .Production__img1 img, .Production__img2 img {
+        width: 180%;
+    }
+    .Production__img1 {
+        top: 35px;
+        left: -49%;
+    }
+    .Production__img1 img:nth-of-type(1) {
+        margin-bottom: 38px;
+    }
+    .Production__img2 {
+        top: 71px;
+        right: 112px;
+    }
+    .light-green__bg-color {
+        height: 322px;
+        width: 200%;
+    }
+
+    .what-we-offer__container {
+        padding: 0 75px;
+    }
+    .light-purple__bg-color {
+        height: 248px;
+    }
+    .what-we-offer__img2 img, .what-we-offer__img1 img {
+        width: 115%;
+    }
+    .what-we-offer__img1 {
+        right: 33px;
+        top: 75px;
+    }
+    .what-we-offer__img2 {
+        top: 39px;
+        left: 53px;
+    }
+
+    .CTA__img {
+        height: 213px;
+    }
+    .CTA__description__text {
+        padding: 35px 33px;
+    }
+    .CTA__description a {
+        font-size: 140%;
+    }
+
+    footer {
+        padding: 35px 36px 40px 36px;
+    }
+    .footer__header img {
+        width: 36%;
+    }
+    footer p {
+        line-height: 1.5;
+    }
+    .row {
+        gap: 38px;
+    }
+    .footer__body>.row {
+        margin-bottom: 38px;
+    }
+    .newsletter__form {
+        margin-top: 5%;
+    }
+    input[type=email] {
+        width: 70%;
+        padding: 8px;
+    }
+    input[type=button] {
+        padding: 8px;
+        width: 28%;
+    }
+    select[name=Location] {
+        width: 50%;
+    }
+    .social__icons li {
+        margin-right: 3%;
+    }
+    .footer__nav__main li {
+        margin-bottom: 2.7%;
+    }
+    .footer__nav__aside p {
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .container {
+        padding: 0 29px;
+    }
+    .description-container {
+        padding: 36px 28px;
+    }
+    .description h1, .description-container h1 {
+        line-height: 1.7;
+    }
+
+    .home__logo {
+        width: 19.5%;
+    }
+
+    .yellow__bg-color {
+        height: 234px;
+        width: 213%;
+    }
+
+    iframe {
+        width: 317px;
+        height: 189px;
+    }
+
+    .Production__img1 {
+        top: 32px;
+        left: -52%;
+    }
+    .Production__img2 {
+        right: 96px;
+    }
+    .Production__img1 img, .Production__img2 img {
+        width: 192%;
+    }
+    .light-green__bg-color {
+        height: 310px;
+        width: 225%;
+    }
+
+    .what-we-offer__container {
+        padding: 0 60px;
+    }
+    .what-we-offer__img2 {
+        left: 39px;
+    }
+
+    .CTA__description__text {
+        padding: 35px 30px;
     }
 }

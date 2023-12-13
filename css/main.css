@@ -165,7 +165,7 @@ h3 {
   background-image: url(https://ableton-production.imgix.net/about/header.jpg?fit=crop&auto=format&fm=jpg);
   background-position: center;
   background-size: cover;
-  background-position: no-repeat;
+  background-repeat: no-repeat;
   height: 90vh;
   display: flex;
   align-items: center;
@@ -476,7 +476,7 @@ select {
 select[name=Location] {
   width: 60%;
 }
-select[name=Languages] {
+select[name=Language] {
   width: 30%;
 }
 
