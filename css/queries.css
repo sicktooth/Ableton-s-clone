@@ -382,7 +382,7 @@
     }
 
     .yellow__bg-color {
-        height: 680px;
+        height: 638px;
         width: 90%;
     }
     .music-section__img-1 {
@@ -1253,5 +1253,37 @@
     }
     .footer__nav__main li {
         margin-bottom: 3.7%;
+    }
+}
+@media only screen and (max-width: 280px) {
+    .main-header__header__img h1 {
+        font-size: 4rem;
+    }
+
+    .yellow__bg-color {
+        height: 190px;
+    }
+
+    .Production__img1 {
+        left: -52%;
+    }
+    .Production__img2 {
+        right: 79px;
+    }
+    .light-green__bg-color {
+        height: 247px;
+        width: 289%;
+    }
+
+    .what-we-offer__img1 {
+        right: 26px;
+        top: 57px;
+    }
+    .light-purple__bg-color {
+        height: 185px;
+    }
+
+    .footer__nav__aside p {
+        margin-left: 15px;
     }
 }
