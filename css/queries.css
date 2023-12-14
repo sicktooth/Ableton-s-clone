@@ -779,6 +779,9 @@
         margin-left: -59px;
     }
 }
+@media only screen and (max-width: 597px) {
+    
+}
 @media only screen and (max-width: 425px) {
     .container {
         padding: 0 36px;
@@ -820,7 +823,7 @@
     }
 
     iframe {
-        width: 350px;
+        width: 82.353vw;
         height: 200px;
     }
     figcaption {
@@ -928,9 +931,16 @@
         width: 19.5%;
     }
 
+    .music-section__img-1 {
+        top: 27px;
+        left: 30px;
+    }
+    .music-section__img-2 {
+        top: 59px;
+    }
     .yellow__bg-color {
-        height: 234px;
-        width: 213%;
+        height: 219px;
+        width: 223%;
     }
 
     iframe {
@@ -956,11 +966,107 @@
     .what-we-offer__container {
         padding: 0 60px;
     }
+    .what-we-offer__img1 {
+        right: 31px;
+        top: 66px;
+    }
     .what-we-offer__img2 {
         left: 39px;
+        top: 31px;
+    }
+    .light-purple__bg-color {
+        height: 229px;
     }
 
+    .CTA__img {
+        height: 200px;
+    }
     .CTA__description__text {
         padding: 35px 30px;
+    }
+
+    .footer__header img {
+        width: 42%;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .container {
+        padding: 0 14px;
+    }
+    .description-container {
+        padding: 36px 14px;
+    }
+    .description p, .description-container p {
+        font-size: 17px;
+    }
+
+    main {
+        padding-bottom: 30px;
+    }
+
+    .main-header__header__img h1 {
+        font-size: 4.5rem;
+    }
+
+    .home__nav {
+        padding: 20px 8px;
+    }
+    .home__logo {
+        width: 23.5%;
+    }
+    .sticky__nav {
+        padding: 18px 8px;
+    }
+    .sticky__nav a {
+        font-size: 16px;
+    }
+
+    .music-section__img-1 {
+        left: 15px;
+    }
+    .music-section__img-1 img, .music-section__img-2 img {
+        width: 200%;
+    }
+    .yellow__bg-color {
+        height: 200px;
+        width: 282%;
+    }
+
+    iframe {
+        width: 292px;
+        height: 182px;
+    }
+
+    .Production__img1 {
+        top: 26px;
+        left: -53%;
+    }
+    .Production__img2 {
+        top: 60px;
+        right: 89px;
+    }
+    .light-green__bg-color {
+        height: 270px;
+        width: 254%;
+    }
+
+    .what-we-offer__container {
+        padding: 0 45px;
+    }
+    .light-purple__bg-color {
+        height: 208px;
+    }
+    .what-we-offer__img2 {
+        left: 26px;
+    }
+
+    footer {
+        padding: 30px 15px 40px 14px;
+    }
+    .footer__body {
+        font-size: 17px;
+    }
+    .footer__nav__main li {
+        margin-bottom: 3.7%;
     }
 }
