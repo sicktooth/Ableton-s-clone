@@ -613,6 +613,9 @@
         grid-template-columns: 1fr;
     }
     .footer__nav__main {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         margin-bottom: 8%;
     }
@@ -758,6 +761,9 @@
         grid-template-columns: 1fr;
     }
     .footer__nav__main {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         margin-bottom: 8%;
     }
