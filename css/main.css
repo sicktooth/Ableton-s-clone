@@ -1,12 +1,3 @@
-/* BLUE COLOR - #0000ff 
-   RED COLOR - #ff764d
-   YELLOW COLOR - #fbffa7
-   LIGHT GREEN COLOR - #b6ffc0
-   LIGHT PURPLE COLOR - #d5b3ff
-
-*/
-
-
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -508,7 +499,6 @@ select[name=Language] {
 .footer__nav__main li {
   margin:0 1.5% 0 0;
 }
-
 
 .footer__nav__aside {
   margin-left: auto;
