@@ -509,3 +509,10 @@ select[name=Language] {
 .footer__nav__aside p {
   margin-right: 15px;
 }
+
+aside {
+  padding-top: 20px;
+}
+aside a {
+  color: #0000ff;
+}
