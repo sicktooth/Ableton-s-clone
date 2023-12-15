@@ -455,7 +455,6 @@
     }
     .row {
         gap: 40px;
-        grid-template-columns: 1fr;
     }
     .footer__body>.row {
         margin-bottom: 48px;
