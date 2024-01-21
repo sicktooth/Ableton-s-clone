@@ -8,7 +8,7 @@ https://www.frontendpractice.com/projects/ableton
 
 #Here's the challenge....
 
-![screenshot](Ableton-s-clone/Isolated.jpg)
+![screenshot](Isolated.jpg)
 
 1. click on the link below 👇👇⬇️👇👇 to get to the above image ⬆️☝️⬆️
 
