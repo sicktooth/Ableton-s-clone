@@ -8,7 +8,7 @@ https://www.frontendpractice.com/projects/ableton
 
 #Here's the challenge....
 
-![alt text](Isolated.jpg "Screenshot of getting to link")
+![alt text](Isolated.jpg "Screenshot")
 
 1. click on the link below 👇👇⬇️👇👇 to get to the above image ⬆️☝️⬆️
 
