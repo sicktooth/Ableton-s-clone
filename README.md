@@ -2,11 +2,11 @@
 
 ## This is a project challenge I accepted from frontend practice
 
-#Here's the challenge link in Frontend Practice...
+## Here's the challenge link in Frontend Practice...
 
 https://www.frontendpractice.com/projects/ableton
 
-#Here's the challenge....
+## Here's the completed challenge....
 
 ![screenshot](Isolated.jpg)
 
@@ -14,6 +14,6 @@ https://www.frontendpractice.com/projects/ableton
 
 https://sicktooth.github.io/portfolio/#projects
 
-#Here is the original webpage....
+## Here is the original webpage....
 
 https://www.ableton.com/en/about/
